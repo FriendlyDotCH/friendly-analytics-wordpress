@@ -3,7 +3,7 @@
  * Plugin Name: Friendly Analytics
  * Plugin URI: https://wordpress.org/plugins/friendly-analytics/
  * Description: Friendly Analytics is  a professional web analytics solution that is friendly to your website visitors by respecting their privacy.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: Friendly
  * Author URI: https://friendly.ch/analytics
  * License: GPL2
