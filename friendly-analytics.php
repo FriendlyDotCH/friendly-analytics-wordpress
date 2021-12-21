@@ -6,7 +6,7 @@
  * Version: 1.0.4
  * Author: Friendly
  * Author URI: https://friendly.ch/analytics
- * License: GPL2
+ * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Domain Path: /languages
  * Text Domain: friendly-analytics
