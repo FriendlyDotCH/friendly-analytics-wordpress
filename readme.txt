@@ -1,5 +1,5 @@
 === Friendly Analytics ===
-Contributors: friendly, webkinder, bradycargle
+Contributors: friendlych, bradycargle, webkinder
 Tags: analytics, privacy, tracking code, web analytics, anonymization, cookie, Datenschutz, ga, gaoptout, googleanalytics, google analytics, google tag manager, gym
 Requires at least: 4.8
 Requires PHP: 7.1
@@ -8,19 +8,13 @@ Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Official WordPress plugin for Friendly Analytics (friendly.ch/analytics)
+Official WordPress plugin for [Friendly Analytics](https://friendly.ch/analytics)
 
 == Description ==
 
-This plugin adds the tracking code for Friendly Analytics to your website.
+This plugin adds the tracking code for [Friendly Analytics](https://friendly.ch/analytics) to your website.
 
 Friendly Analytics is  a professional web analytics solution that is friendly to your website visitors by respecting their privacy.
-
-You can find out more about our service at:
-https://friendly.ch/analytics
-
-Privacy Policy: 
-https://friendly.ch/privacy
 
 == Installation ==
 
@@ -48,3 +42,4 @@ https://friendly.ch/privacy
 
 = 1.0.4 =
 * Minor fixes including a change in URL
+* Made it easier for users to choose their server location

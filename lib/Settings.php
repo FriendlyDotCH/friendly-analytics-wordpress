@@ -136,12 +136,16 @@ class Settings {
 
     add_settings_field(
       'fa_server',
-      __('Friendly Analytics custom server', 'friendly_analytics_wp'),
+      __('Friendly Analytics Custom Server', 'friendly_analytics_wp'),
       array( $this, 'fa_server_field' ),
       'friendly_analytics',
       'friendly_analytics'
     );
 
+    register_setting(
+      'friendly_analytics_wp',
+      'fa_server_2'
+    );
 
   }
 
@@ -231,17 +235,25 @@ class Settings {
 
     $field = 'fa_server';
     $value = esc_attr( get_option( $field ) );
-
+    $value_name = "";
+    if ($value == "app.friendlyanalytics.ch") { 
+      $value_name = "Switzerland";
+    }
+    else {
+      $value_name = "Germany/EU";
+    };
     ?>
 
-    <input type="text" name="<?php echo $field; ?>" placeholder="example.com" value="<?php echo $value; ?>" />
+    <label for="fa_server">Choose your server location:</label>
+    <select name="fa_server" id="fa_server">
+      <option value="app.friendlyanalytics.ch" name="Switzerland">Switzerland</option>
+      <option value="app.friendlyanalytics.com" name="Germany/EU">Germany/EU</option>
+    </select>
 
-    <p>Optional – please use only when provided.</p>
+    <p>Optional. Your current server is in <?php echo $value_name ?>.</p>
 
     <?php
 
   }
-
-
 
 }

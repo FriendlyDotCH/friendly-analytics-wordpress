@@ -47,16 +47,7 @@ class Loader
 		
 		}
 
-
-
-
- 		
-
-		
 	}
-
-
-
 
 	/**
 	 * Outputs Site and Tag Manager IDs
@@ -74,14 +65,14 @@ class Loader
 
 		if ($fa_tracking_code) {
 		?>
-var friendlyAnalyticsSiteId="<? echo $fa_tracking_code; ?>";<?php
+			var friendlyAnalyticsSiteId="<? echo $fa_tracking_code; ?>";<?php
 
 		}
 
 		if ($fa_tag_manager_id) {
 		?>
 
-var friendlyAnalyticsTagManagerId="<? echo $fa_tag_manager_id; ?>";<?php
+			var friendlyAnalyticsTagManagerId="<? echo $fa_tag_manager_id; ?>";<?php
 
 		}	
 
@@ -89,7 +80,7 @@ var friendlyAnalyticsTagManagerId="<? echo $fa_tag_manager_id; ?>";<?php
 		if ($fa_server) {
 		?>
 
-var friendlyAnalyticsServer="<? echo $fa_server; ?>";<?php
+			var friendlyAnalyticsServer="<? echo $fa_server; ?>";<?php
 
 		}				
 
